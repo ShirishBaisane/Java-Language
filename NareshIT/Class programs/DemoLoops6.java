@@ -1,0 +1,3 @@
+/*
+WAP to read a number and display the reverse the given number.
+*/

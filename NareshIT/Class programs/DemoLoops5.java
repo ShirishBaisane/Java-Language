@@ -18,7 +18,7 @@ public class DemoLoops5{
 					count++;
 				}//end of if
 			}//end of inner-loop
-			if(count==2){
+			if(count==2 && n!=1){
 				System.out.print(n+" ");
 			}//end of if
 		}//end of outer-loop

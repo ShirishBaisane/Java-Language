@@ -1,0 +1,28 @@
+import java.util.Scanner;//import Scanner from 'util' library
+class AsgnMethods3 
+{
+	public static void main(String[] args) //memory in Class
+	{
+		Scanner s = new Scanner(System.in);//input assignment for console(keyboard), method_object 's' created & memory in HeapArea.
+		//read data from keyboard
+		System.out.println("==Enter Train Details:==");
+		System.out.println("Enter Train_No:");
+		String trainNo = s.nextLine();//memory in Class
+		System.out.println("Enter Train_Name:");
+		String trainName = s.nextLine();//memory in Class
+		System.out.println("Enter Start_Station:");
+		String fromStation = s.nextLine();//memory in Class
+		System.out.println("Enter Destination_Station:");
+		String toStation = s.nextLine();//memory in Class
+		System.out.println("Enter Ticket_Price:");
+		String ticketPrice = s.nextLine();//memory in Class
+		System.out.println("");
+		//display the details
+		System.out.println("==Train Details Are:==");
+		System.out.println("Train_No:"+trainNo);//accessed from main_method,i.e. Class
+		System.out.println("Train_Name:"+trainName);//accessed from main_method,i.e. Class
+		System.out.println("Start_Station:"+fromStation);//accessed from main_method,i.e. Class
+		System.out.println("Destination_Station:"+toStation);//accessed from main_method,i.e. Class
+		System.out.println("Ticket_Price:"+ticketPrice);//accessed from main_method,i.e. Class
+	}
+}

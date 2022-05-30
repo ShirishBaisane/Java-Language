@@ -1,0 +1,14 @@
+class DemoVariable1
+{
+	public static void main(String[]arg)
+	{
+		byte b = 12;
+		short s = 13;
+		int i = 123;
+		long l = 2846238294L;
+		float f = 123.45F;
+		double d = 1234.5567;
+		char ch = 'A';
+		boolean bl = true;
+
+}

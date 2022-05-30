@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class AsgnMethods2 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("==Enter Books_Details:==");
+		System.out.println("Enter Book_Code:");
+		String bCode = s.nextLine();
+		System.out.println("Enter Book_Name:");
+		String bName = s.nextLine();
+		System.out.println("Enter Book_Author:");
+		String bAuthor = s.nextLine();
+		System.out.println("Enter Book_Price:");
+		float bPrice = s.nextFloat();
+		System.out.println("Enter Book_Quantity:");
+		int bQty = s.nextInt();
+		System.out.println("");
+		System.out.println("==Book Details are:==");
+		System.out.println("Book_Code:"+bCode);
+		System.out.println("Book_Name:"+bName);
+		System.out.println("Book_Author:"+bAuthor);
+		System.out.println("Book_Price:"+bPrice);
+		System.out.println("Book_Quantity:"+bQty);
+	}
+}

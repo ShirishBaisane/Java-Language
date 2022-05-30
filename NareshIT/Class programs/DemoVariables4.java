@@ -1,0 +1,34 @@
+class  DemoVariables4
+{
+	public static void main(String[] args) 
+	{
+		String name = "Ganesh";
+		int id = 9883217;
+		String desg = "Worker";
+		String hno = "E2-502, Paradise Society";
+		String stname = "MG road";
+		String city = "Nasik";
+		int pcode = 422001;
+		String email = "ganesh@xyz.org";
+		long pNo = 7275649275L;
+		int bSal = 20000;
+		float hra = bSal*95/100;
+		float da = bSal*63/100;
+		float tSal = bSal+hra+da;
+		System.out.println("::EMPLOYEE DETAILS::");
+		System.out.println("Name:"+name);
+		System.out.println("EmpId:"+id);
+		System.out.println("Designation"+desg);
+		System.out.println("Address:");
+		System.out.println(hno);
+		System.out.println(stname);
+		System.out.println(city);
+		System.out.println("Pin Code:"+pcode);
+		System.out.println("Mail ID:"+email);
+		System.out.println("Contact No.:"+pNo);
+		System.out.println("Basic Salary:"+bSal);
+		System.out.println("HRA:"+hra);
+		System.out.println("D.A.:"+da);
+		System.out.println("Total Salary:"+tSal);
+	}
+}

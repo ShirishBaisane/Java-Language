@@ -1,0 +1,23 @@
+class DemoMethods1 
+{
+	static int a=10;//memory in Class
+	int b=20;//memory in Object
+	static void m1()
+	{
+		System.out.println("==::Static method m1()::==");
+		System.out.println("The value of a:"+a);
+		//System.out.println("The of b:+b);//Error
+	}
+	void m2()//memory in Object
+	{
+		System.out.println("==::Instance meothd m2()::==");
+		System.out.println("The value of a:"+a);
+		System.out.println("The value of b:"+b);
+	}
+	public static void main(String[] args)//memory in Class
+	{
+		DemoMethods1.m1();//static method_call
+		DemoMethods1 ob = new DemoMethods1();
+		ob.m2();//Instance method_call
+	}
+}

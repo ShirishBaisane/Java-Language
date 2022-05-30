@@ -10,12 +10,19 @@ public class DemoLoops6{
 		System.out.println("Enter a number:");
 		int num = s.nextInt();
 		System.out.println("Reverse of the number is:");
-		while(num!=0){
+		/*while(num!=0){
 			int x = num%10;
 			System.out.print(x);
 			num/=10;
 		}//end of loop
-		
+		*/
+		int rev=0;
+		while(num!=0){
+			int x = num%10;
+			rev = (rev*10)+x;
+			num/=10;
+		}//end of loop
+		System.out.println(rev);
 		s.close();
 	}
 }

@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="p1.Addition"/>
+    <fullyQualifiedTypeName name="p1.Subtraction"/>
+    <fullyQualifiedTypeName name="p1.Division"/>
+    <fullyQualifiedTypeName name="p1.Multiplication"/>
+    <fullyQualifiedTypeName name="p1.ModDivision"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="p1.CheckPinNo"/>
+</qualifiedTypeNameHistroy>

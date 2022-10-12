@@ -2,10 +2,10 @@ package BillDetais;
 
 public class Details {
 	double charge = 10.078125;
-	 
-	int bN, bU, cR, pR;
+	long  bN;
+	int bU, cR, pR;
 	//Constructor with parameter
-	public Details(int bNumber, int bUnit, int cReading, int pReading)
+	public Details(long bNumber, int bUnit, int cReading, int pReading)
 	{
 		bN = bNumber;
 		bU = bUnit;

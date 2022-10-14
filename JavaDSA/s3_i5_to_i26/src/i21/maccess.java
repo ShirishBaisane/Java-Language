@@ -9,14 +9,19 @@ public class maccess {
 		System.out.println("===Check if the alphabet is Vowel or Consonant===");
 		System.out.println("Enter the alphabet: ");
 		char ch = scan.next().trim().charAt(0);
+		int num = ch;
+		if((num>=65 && num <=88) && (num>=65 && num <=88)) {
+			if(ch=='a' || ch=='a' || ch=='A' || ch=='e' || ch=='E' || ch=='i' || ch=='I' || ch=='o' || ch=='O' || ch=='u' || ch=='U') {
 		
-		if(ch=='a' || ch=='a' || ch=='A' || ch=='e' || ch=='E' || ch=='i' || ch=='I' || ch=='o' || ch=='O' || ch=='u' || ch=='U') {
 			System.out.println("Vowel");
+			}
+			else {
+			System.out.println("Consonant");
+			}
 		}
 		else {
-			System.out.println("Consonant");
+			System.out.println("Invalid input");
 		}
-				
 		scan.close();
 	}
 

@@ -14,5 +14,21 @@ public class SmallestLetter {
 		System.out.println("Smallest letter greater that target is: "+nextGreatestLetter(letters2, target2));
 		System.out.println("Smallest letter greater that target is: "+nextGreatestLetter(letters3, target3));
 	}
+	
+	static char nextGreatestLetter(char[] letters, char target) {
+		int start=0, end = letters.length-1;
+		
+		while(start<=end) {
+			//find the middle element
+			int mid = start + (end-start)/2;
+			
+			if(target<letters[mid]) {
+				end = mid-1;
+			} else {
+				start = mid+1;
+			}
+		}
+		return letters[start%letters.length];
+	}
 
 }

@@ -3,7 +3,7 @@ package BinarySearchQuestions;
 public class SearchInRotatedSA {
 
 	public static void main(String[] args) {
-		int[] arr = {4,5,6,3,2,1,0};
+		int[] arr = {4,5,6,0,1,2,3};
 		int target = 5;
 		System.out.println("Pivot element Index is: "+findPivot(arr));
 		System.out.println("Index of target element "+target+" is: "+searchInRSA(arr, target));

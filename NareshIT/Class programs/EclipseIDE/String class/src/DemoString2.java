@@ -1,4 +1,5 @@
-
+//Q> W.A.P. to read and display the following based on user choice:
+// 1. Normal String 2. Reverse String
 import java.util.Scanner;
 
 public class DemoString2 {

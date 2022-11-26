@@ -32,7 +32,7 @@ public class DemoBuffer1 {
 		System.out.println("Length: "+sb.length());
 		
 		System.out.println("==String reverse() method==");
-		System.out.println(sb.toString());//reverse()_call
+		System.out.println(sb.reverse());//reverse()_call
 
 	}
 

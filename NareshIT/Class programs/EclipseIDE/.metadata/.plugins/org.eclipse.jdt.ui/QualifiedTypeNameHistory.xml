@@ -9,6 +9,8 @@
     <fullyQualifiedTypeName name="p1.Deposit"/>
     <fullyQualifiedTypeName name="p1.Balance"/>
     <fullyQualifiedTypeName name="p1.Withdraw"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="test.GenerateBranch"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 </qualifiedTypeNameHistroy>

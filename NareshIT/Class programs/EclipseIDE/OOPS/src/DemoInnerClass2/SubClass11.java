@@ -16,12 +16,13 @@ public class SubClass11 {
 			System.out.println("The value a: "+a);
 			System.out.println("The value b: "+b);
 		}
-		
+		/*
 		public static void m22() {
 			System.out.println("===Inner =Class static method m22()===");
 			//System.out.println("The value a: "+a);//Error
 			System.out.println("The value b: "+b);
 		}
+		*/
 	}//Instance_member_InnerClass
 
 }//OuterClass

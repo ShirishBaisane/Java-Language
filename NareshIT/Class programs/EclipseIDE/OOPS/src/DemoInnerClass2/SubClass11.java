@@ -6,7 +6,7 @@ public class SubClass11 {
 	
 	public void m1() {
 		System.out.println("===OuterClass method m1()===");
-		System.out.println("The value a: "+1);
+		System.out.println("The value a: "+a);
 		System.out.println("The value b "+b);
 	}
 	

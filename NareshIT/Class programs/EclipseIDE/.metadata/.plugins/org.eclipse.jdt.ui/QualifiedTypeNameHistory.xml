@@ -17,4 +17,16 @@
     <fullyQualifiedTypeName name="DemoInnerClass1.SubClass1"/>
     <fullyQualifiedTypeName name="DemoInnerClass1.SubClass1.SubClass2"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="DemoInnerClass4.ITest.SubClass2"/>
+    <fullyQualifiedTypeName name="DemoInnerClass4.AClass.SubClass22"/>
+    <fullyQualifiedTypeName name="DemoInnerClass4.AClass.SubClass33"/>
+    <fullyQualifiedTypeName name="DemoInnerInterface1.SubClass.ITest1"/>
+    <fullyQualifiedTypeName name="DemoInnerInterface1.SubClass.ITest2"/>
+    <fullyQualifiedTypeName name="DemoInnerInterface2.ITest.ITest1"/>
+    <fullyQualifiedTypeName name="DemoInnerInterface3.AClass.ITest1"/>
+    <fullyQualifiedTypeName name="DemoInnerInterface3.AClass.ITest2"/>
+    <fullyQualifiedTypeName name="DemoInnerAbstractClass1.SubClass.AClass1"/>
+    <fullyQualifiedTypeName name="DemoInnerAbstractClass1.SubClass.AClass2"/>
+    <fullyQualifiedTypeName name="DemoInnerAbstractClass2.ITest.AClass1"/>
+    <fullyQualifiedTypeName name="DemoInnerAbstractClass3.AClass.AClass1"/>
 </qualifiedTypeNameHistroy>

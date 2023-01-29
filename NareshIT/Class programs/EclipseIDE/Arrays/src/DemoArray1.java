@@ -18,7 +18,7 @@ public class DemoArray1 {
 			System.out.print(a[i].toString()+" ");
 		}//end of loop
 		
-		System.out.println("\n===Display using Entended-for(java8)===");
+		System.out.println("\n===Display using Entended-for(java5)===");
 		for(Integer k:a) {
 			System.out.print(k.toString()+" ");
 		}

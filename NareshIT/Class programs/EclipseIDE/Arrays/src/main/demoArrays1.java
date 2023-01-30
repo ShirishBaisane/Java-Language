@@ -1,7 +1,11 @@
-import java.util.*;
+package main;
+
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.Spliterator;
 
 
-public class DemoArray1 {
+public class demoArrays1 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
